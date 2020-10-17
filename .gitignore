@@ -1,0 +1,8 @@
+#ide
+.idea
+
+#vendor
+vendor
+
+#project
+env*

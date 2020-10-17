@@ -1,0 +1,22 @@
+{
+    "name": "lergassi/base-slim",
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.2",
+        "php-di/php-di": "^6.3"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+        "files": [
+            "functions.php",
+            "define.php"
+        ],
+        "psr-4": {
+            "App\\": "app",
+            "Source\\": "src"
+        }
+    }
+}
