@@ -1,5 +1,6 @@
 {
     "name": "lergassi/base-slim",
+    "version": "stable",
     "minimum-stability": "stable",
     "require": {
         "slim/slim": "4.*",
